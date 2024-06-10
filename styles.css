@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    column-gap: 20px;
+}
+
+.column-two-style {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.column-one-style, .box {
+    border: 1px solid black;
+}
+
+.row-one, .row-two {
+    display: flex;
+    column-gap: 20px;
+}
